@@ -31,11 +31,13 @@ jobs:
       # Retrieve SonarQube secrets from AWS Secrets Manager
       - name: Get SonarQube Secrets
         shell: bash
+        env:
+          SONAR_SECRET_ARN: ${{ vars.SONAR_SECRET_ARN }}
         run: |
           set -euo pipefail
 
           SECRET_JSON=$(sudo aws secretsmanager get-secret-value \
-            --secret-id "arn:aws:secretsmanager:ap-south-1:466217811358:secret:MYSECRETS-JWHSYV" \
+            --secret-id "$SONAR_SECRET_ARN" \
             --region ap-south-1 \
             --query SecretString \
             --output text)
