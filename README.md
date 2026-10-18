@@ -10,8 +10,6 @@
 
 A machine learning classifier that predicts the risk of heart disease from patient health data, built and shipped with modern MLOps practice: reproducible training, experiment tracking, automated tests and security scans, a container image, a Kubernetes deployment on AWS EKS, and live monitoring with Prometheus and Grafana.
 
-> **Course:** BITS Pilani M.Tech AIML (WILP), Machine Learning Operations (MLOps) AIMLCZG523, Assignment 01.
-> **Note:** this model is an academic exercise on a small public dataset. It is not a clinical tool.
 
 ## Contents
 
@@ -50,8 +48,8 @@ Logistic Regression was chosen for its higher test recall (a missed patient is t
 |---|---|
 | Code repository | https://github.com/Rengaprakash4440/AIMLCZG523_Assignment_01 |
 | Report | `report/` (PDF or DOCX) |
-| Pipeline video | _paste link_ |
-| Deployed API | _paste ELB URL while running; the cluster is deleted after evidence is captured to avoid cost_ |
+| Pipeline video | https://drive.google.com/file/d/1uNjzcRxA39qHJvK9NPUdgGGVSy90_TAI/view?usp=sharing |
+| Deployed API | http://a2fd3c035818e4cee912d8bb8f47f7d8-1536463618.ap-south-1.elb.amazonaws.com/metrics |
 
 ## Architecture
 
