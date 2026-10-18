@@ -46,7 +46,7 @@ Logistic Regression was chosen for its higher test recall (a missed patient is t
 
 | Item | Value |
 |---|---|
-| Code repository | https://github.com/Rengaprakash4440/AIMLCZG523_Assignment_01 |
+| Code repository | https://github.com/Rengaprakash4440/AIMLZG523_Assignment_01 |
 | Report | `report/` (PDF or DOCX) |
 | Pipeline video | https://drive.google.com/file/d/1uNjzcRxA39qHJvK9NPUdgGGVSy90_TAI/view?usp=sharing |
 | Deployed API | http://a2fd3c035818e4cee912d8bb8f47f7d8-1536463618.ap-south-1.elb.amazonaws.com/metrics |
@@ -131,7 +131,7 @@ Training and serving share one fitted scikit-learn `Pipeline` (imputation, scali
 **Prerequisites:** Python 3.14 (matches the container, so the pickled model loads identically), Git and Docker. The cloud steps also need the AWS CLI, `kubectl` and an AWS account.
 
 ```bash
-git clone https://github.com/Rengaprakash4440/AIMLCZG523_Assignment_01.git
+git clone https://github.com/Rengaprakash4440/AIMLZG523_Assignment_01.git
 cd AIMLCZG523_Assignment_01
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
